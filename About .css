@@ -1,0 +1,32 @@
+h1{
+display: flex;
+font-size: 50px;
+justify-content: center;
+}
+
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      gap: 30px; /* space between columns */
+    }
+
+    .container img {
+      width: 500px;
+      height: 400px;
+      border-radius: 10px;
+    }
+
+    .text {
+      max-width: 400px;
+      font-family: Arial, sans-serif;
+    }
+
+    .highlight-blue {
+    background-color: #007BFF; /* Bootstrap blue */
+    color: white;              /* Optional: white text on blue */
+    padding: 2px 4px;
+    border-radius: 3px;
+  
